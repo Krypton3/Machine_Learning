@@ -6,6 +6,8 @@ import quandl, math
 import numpy as np
 from sklearn import preprocessing, cross_validation, svm
 from sklearn.linear_model import LinearRegression
+from statistics import mean
+
 
 style.use('ggplot')
 
