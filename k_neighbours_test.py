@@ -20,7 +20,7 @@ def k_nearest_neighbors(data, predict, k=3):
     return vote_result
 
 
-df = pd.read_csv('breast-cancer-wisconsin.data.txt')
+df = pd.read_csv('dataupdate.csv')
 df.replace('?',-99999, inplace=True)
 df.drop(['id'], 1, inplace=True)
 full_data = df.astype(float).values.tolist()
